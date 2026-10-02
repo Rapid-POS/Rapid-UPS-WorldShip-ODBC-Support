@@ -11,7 +11,7 @@ Rapid provides support for the UPS WorldShip shipping software (desktop app) to 
 - Minimum Counterpoint version: **8.5.6.2**
 - Minimum SQL Server version: **2016**
 - Minimum Supported Operating System version: **Windows Server 2016** or **Windows 11 Pro**
-- Counterpoint must be installed on the same computer as the UPS WorldShip shipping software (desktop app)
+- Counterpoint must be installed on the same workstation as the UPS WorldShip shipping software (desktop app)
 
 If you would like the UPS WorldShip ODBC connection but your system does not meet these minimum requirements, please consult your Care Team Lead (vCIO) for an upgrade quote.
 
@@ -46,7 +46,7 @@ ODBC stands for Open Database Connectivity. It is a standard Windows tool that w
 UPS WorldShip uses a 32-bit ODBC connection. The data source must be created in the 32-bit ODBC Data Source Administrator in Windows, or UPS WorldShip will not see it.
 
 The following software is required on the UPS WorldShip PC:
-- Counterpoint, which must be installed on the same computer as the UPS WorldShip shipping software (desktop app)
+- Counterpoint, which must be installed on the same workstation as the UPS WorldShip shipping software (desktop app)
 - The Microsoft SQL Server ODBC driver, so that the UPS WorldShip PC can communicate with Microsoft SQL Server
 - The UPS WorldShip shipping software (desktop app), which the client will download from UPS
 
